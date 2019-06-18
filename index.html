@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+	<title>assign3.com</title>
+	<link rel="stylesheet" type="text/css" href="ludo.css">
+  <script type="text/javascript" src="demo.js"></script>
+  </head>
+  <body>
+
+  	<div class="s1" id="1"></div>
+  	<div class="s28" id="28"></div>
+  	<div class="s27" id="27"></div>
+  	<div class="s26" id="26"></div>
+  	<div class="s25" id="25"></div>
+  	<div class="s24" id="24"></div>
+  	<div class="s23" id="23"></div>
+  	<div class="s22" id="22"></div>
+  	<div class="s2" id="2"></div>
+  	<div class="s3" id="3"></div>
+  	<div class="s4" id="4"></div>
+  	<div class="s5" id="5"></div>
+  	<div class="s6" id="6"></div>
+  	<div class="s7" id="7"></div>
+  	<div class="s8" id="8"></div>
+  	<div class="s9" id="9"></div>
+  	<div class="s10" id="10"></div>
+  	<div class="s11" id="11"></div>
+  	<div class="s12" id="12"></div>
+  	<div class="s13" id="13"></div>
+  	<div class="s14" id="14"></div>
+  	<div class="s15" id="15"></div>
+    <div class="s16" id="16"></div>
+  	<div class="s17" id="17"></div>
+  	<div class="s18" id="18"></div>
+  	<div class="s19" id="19"></div>
+  	<div class="s20" id="20"></div>
+  	<div class="s21" id="21"></div>
+  	
+    <div id="win">
+      <em>note:-click on the respective </br>token to move it.</em>
+    </div>
+  	
+   <div id="centre">
+   	<div id="first">ITS PLAYER A'S TURN</div>
+   	<div id="second"></div>
+   	<div class="third" ><button  onclick="diceroll()" id="roll" style="background-color: #e2a94d;color: red;position: relative; bottom: 1627px;left:410px;padding: 15px 45px;width:10%;font-size: 19px;">ROLL!</button>
+    </div>
+    <div id="checknum">ENTER VALUE</div>
+   <div>
+    <form id="myform">
+    	<input type="text" name="select">
+    </form>
+   </div>
+    <div id="check" onclick="diceroll()">CHECK</div>
+  </div>
+     <div style="border: 2px solid blue;border-width: 5px;width:200px;position: relative; bottom:2000px;left:20px;color:#fff;"> 
+    	<div id="lock-a">LOCKER FOR A</div>
+    		<div class="tm-a1" id="a1" onclick="move_a1()">A1
+        </div>
+    		<div class="tm-a2" id="a2" onclick="move_a2()">A2
+        </div>
+    </div>
+         <div style= "position:relative; bottom:1700px;left:760px;border: 2px solid blue;border-width: 5px;width:200px;color: #fff;">
+          <div class="lock-b">LOCKER FOR B</div>
+    			<div class="tm-b1" id="b1" onclick="move_b1()">B1</div>
+    			<div class="tm-b2" id="b2" onclick="move_b2()">B2</div>
+    		</div>
+    </div>
+     
+  </body>
+</html>
